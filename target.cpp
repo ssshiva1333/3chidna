@@ -135,7 +135,7 @@ class Client {
 };
 
 int main() {
-    Client client("192.168.0.254", 9090);
+    Client client("ip", 9090);
     Process process;
 
     client.clientConnect();
