@@ -158,8 +158,8 @@ public:
     }*/
 };
 
-int main() {
-    Handler handler(9090);
+int main(int argc, char *argv[]) {
+    Handler handler(stoi(argv[1]));
 
     handler.serverBind();
 
