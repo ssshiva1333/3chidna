@@ -159,6 +159,7 @@ public:
 };
 
 int main(int argc, char *argv[]) {
+    //port number is needed as arg
     Handler handler(stoi(argv[1]));
 
     handler.serverBind();
