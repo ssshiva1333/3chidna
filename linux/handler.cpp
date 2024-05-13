@@ -152,6 +152,6 @@ int main(int argc, char *argv[]) {
 	        cout << endl << output << endl;
     	}	
     } else {
-       cout << "! Port number is requiered" << endl;
+       cout << "! Port number is required" << endl;
     }
 }
