@@ -1,3 +1,3 @@
 # echidna
-This is a reverse TCP payload and a handler for Windows.
-It is written in C++.
+They are a couple of reverse TCP payload and a handler that are for Windows and Linux.
+They are written in C++.
